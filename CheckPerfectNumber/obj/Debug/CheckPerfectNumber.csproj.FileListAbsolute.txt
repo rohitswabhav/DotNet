@@ -1,0 +1,7 @@
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\bin\Debug\CheckPerfectNumber.exe.config
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\bin\Debug\CheckPerfectNumber.exe
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\bin\Debug\CheckPerfectNumber.pdb
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\obj\Debug\CheckPerfectNumber.csproj.AssemblyReference.cache
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\obj\Debug\CheckPerfectNumber.csproj.CoreCompileInputs.cache
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\obj\Debug\CheckPerfectNumber.exe
+D:\Swabhav Training\11 June 2024\CheckPerfectNumber\CheckPerfectNumber\obj\Debug\CheckPerfectNumber.pdb
