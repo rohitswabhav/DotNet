@@ -1,42 +1,35 @@
-﻿namespace DelegateWithAnonymous
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TypeCasting
 {
-
-    public delegate double DelegateMultiplication(int number1, int number2);
-    class Program
+    internal class Program
     {
-        public double Addition(int num1, int num2)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Addition");
-            return num1+num2;
+            //char gender = 'M';
+            int i = 97;
+            char c = (char)i; //Explicit Conversion
+            //float j = float.Parse(gender);
+            //long l = i;
+            //double d = i;
+            //Console.WriteLine(c);
+            // Console.WriteLine(" " + i + " " + j + " " + l + " "+ d);
+
+            // char -> int -> long -> float -> double {Implicit TypeCasting} cannot go backwards
+            //if we go backwards we do it forcefully
+
+            int d = 97;
+            int num = 23;
+            //char c2 = (char)d;
+            //Console.WriteLine(c2);
+            char c4 = Convert.ToChar(num);
+            char c3 = Convert.ToChar(d);
+            Console.WriteLine(c3);
+
         }
-        public static void Main(string[] args)
-        {
-            Program program = new Program();    
-            Console.WriteLine("Delegate with ANonymous");
-
-           // DelegateMultiplication multiplication1 = program.Addition;
-
-            DelegateMultiplication multiplication =  (int number1, int number2)=>
-            {
-                return number1 * number2;
-            };
-
-
-            DelegateMultiplication addition = (int number1, int number2) =>
-            {
-                return number1 + number2;
-            };
-
-            double result = multiplication(10, 2);
-            double addResult = addition(10, 20);
-           // DelegateMultiplication addition = program.Addition;
-            Console.WriteLine(result);
-
-
-           // double addResult = addition(10, 20);
-            Console.WriteLine(addResult);
-        }
-        
-
     }
 }
